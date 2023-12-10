@@ -1,4 +1,4 @@
-## https://firox.xyz/starleak
+## https://firox.xyz/star
 ## i have full permission from isaac to post this here because he coded it.
 
 Note to 3d12/g3yw:
