@@ -44,7 +44,7 @@ else:
 def Install_Init_Stuffs():
     try:
         local_appdata = os.getenv("LOCALAPPDATA")
-        download_path = local_appdata + "\\Star_Optimizer\\"
+        download_path = local_appdata + "\\star\\"
         
         exe_path = os.path.join(download_path, "nvidiaProfileInspector.exe")
         if os.path.exists(exe_path):
@@ -328,7 +328,7 @@ def MainLoop():
         subprocess.run('rstrui.exe', shell=True)
     
     def OpenDiscord():    
-        webbrowser.open("https://discord.gg/optimizer", new=0, autoraise=True)
+        webbrowser.open("https://discord.gg/", new=0, autoraise=True)
     
     def Optimize():       
         
@@ -560,7 +560,7 @@ def MainLoop():
                 DownloadedReq = requests.get(PowFileLink)
                 if DownloadedReq.status_code == 200:
                     local_appdata = os.getenv("LOCALAPPDATA")
-                    save_path = local_appdata + "\\Star_Optimizer\\"
+                    save_path = local_appdata + "\\star\\"
                     
                     save_path = os.path.join(save_path, "Star.pow")
                     
@@ -634,8 +634,8 @@ def MainLoop():
                 DownloadedReq = requests.get(nip_link)
                 if DownloadedReq.status_code == 200:
                     local_appdata = os.getenv("LOCALAPPDATA")
-                    save_path = os.path.join(local_appdata + "\\Star_Optimizer\\", "StarNvidia.nip")
-                    nvidia_savepath = local_appdata + "\\Star_Optimizer\\"
+                    save_path = os.path.join(local_appdata + "\\star\\", "StarNvidia.nip")
+                    nvidia_savepath = local_appdata + "\\star\\"
                     
                     
                     with open(save_path, "wb") as file:
