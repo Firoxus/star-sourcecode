@@ -3,7 +3,7 @@
 ## SELLING THIS WILL RESULT IN A DMCA TAKEDOWN
 
 ## the owner was violating isaac's human rights, isaac cannot have a free will in the server because the owner is gonna tell him do this and this or you wont get owner role back etc. More about this:
-## https://firox.xyz/starsource
+## https://firox.xyz/star
 ## https://github.com/Firoxus/star-sourcecode
 
 ## full credit for this code goes to isaac
