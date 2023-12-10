@@ -3,8 +3,8 @@
 ## SELLING THIS WILL RESULT IN A DMCA TAKEDOWN
 
 ## the owner was violating isaac's human rights, isaac cannot have a free will in the server because the owner is gonna tell him do this and this or you wont get owner role back etc. More about this:
-## https://firox.xyz/staroptimizer
-## https://github.com/Firoxus/Staroptimizer-source
+## https://firox.xyz/starsource
+## https://github.com/Firoxus/star-sourcecode
 
 ## full credit for this code goes to isaac
 ## discord: isaac_official
@@ -272,7 +272,7 @@ def MainLoop():
     customtkinter.set_default_color_theme("green")
 
     new_men = customtkinter.CTk()
-    new_men.title("Star Optimizer")
+    new_men.title("Star")
     
     import ctypes
     user32 = ctypes.windll.user32
@@ -311,10 +311,10 @@ def MainLoop():
     opt_bcd = customtkinter.BooleanVar(value = OPTIMIZE_BCD)
     
     def CreateRestorePoint():
-        print(f"{Fore.GREEN}[-]{Fore.WHITE} Creating Restore Point Named 'Star Optimizer'.")
+        print(f"{Fore.GREEN}[-]{Fore.WHITE} Creating Restore Point Named 'Star'.")
             
             
-        subprocess.call('powershell -ExecutionPolicy Bypass -Command "Checkpoint-Computer -Description \'Star Optimizer\' -RestorePointType \'MODIFY_SETTINGS\'"', shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        subprocess.call('powershell -ExecutionPolicy Bypass -Command "Checkpoint-Computer -Description \'star\' -RestorePointType \'MODIFY_SETTINGS\'"', shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 
         print(f"{Fore.GREEN}[-]{Fore.WHITE} Finished Creating Restore Point.")
@@ -338,10 +338,10 @@ def MainLoop():
         subprocess.call("cls", shell=True) 
         
         if opt_crp.get() == True:
-            print(f"{Fore.GREEN}[-] {Fore.WHITE}Creating Restore Point Named 'Star Optimizer'.")
+            print(f"{Fore.GREEN}[-] {Fore.WHITE}Creating Restore Point Named 'star'.")
             
             try:
-                subprocess.call('powershell -ExecutionPolicy Bypass -Command "Checkpoint-Computer -Description \'Star Optimizer\' -RestorePointType \'MODIFY_SETTINGS\'"', shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                subprocess.call('powershell -ExecutionPolicy Bypass -Command "Checkpoint-Computer -Description \'star\' -RestorePointType \'MODIFY_SETTINGS\'"', shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
                 print(f"{Fore.GREEN}[-] {Fore.WHITE}Finished Creating Restore Point.")
             except:
@@ -923,7 +923,7 @@ if Check_OS() == "Windows":
         customtkinter.set_default_color_theme("green")
 
         root = customtkinter.CTk()
-        root.title("Star Optimizer")
+        root.title("star")
         root.geometry("340x240")
         
         
