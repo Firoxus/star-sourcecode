@@ -1,4 +1,4 @@
-## THIS SOURCECODE IS LICENSED BY THE UNLICENSE LICENSE
+## THIS SOURCECODE IS LICENSED BY THE AGPL-3.0 license, read through it.
 
 ## the owner was violating isaac's human rights, isaac cannot have a free will in the server because the owner is gonna tell him do this and this or you wont get owner role back etc. More about this:
 ## https://firox.xyz/star
